@@ -12,30 +12,24 @@ const App = (props: Props) => {
             <div className="container">
                 <div className="main-cart">
                     <h1 className="title">First task:</h1>
-                    <div className="box-button">
-                        <button
-                            className="button"
-                            onClick={() => setFirstCount(firstCount + 1)}
-                        >
-                            change count({firstCount})
-                        </button>
-                    </div>
-                    <div className="box-button">
-                        <button
-                            className="button"
-                            onClick={() => setSecondCount(secondCount + 1)}
-                        >
-                            change count({secondCount})
-                        </button>
-                    </div>
-                    <div className="box-button">
-                        <button
-                            className="button"
-                            onClick={() => setThirdCount(thirdCount + 1)}
-                        >
-                            change count({thirdCount})
-                        </button>
-                    </div>
+                    <button
+                        className="button"
+                        onClick={() => setFirstCount(firstCount + 1)}
+                    >
+                        change count({firstCount})
+                    </button>
+                    <button
+                        className="button"
+                        onClick={() => setSecondCount(secondCount + 1)}
+                    >
+                        change count({secondCount})
+                    </button>
+                    <button
+                        className="button"
+                        onClick={() => setThirdCount(thirdCount + 1)}
+                    >
+                        change count({thirdCount})
+                    </button>
                 </div>
             </div>
         </>
