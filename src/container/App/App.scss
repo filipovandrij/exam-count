@@ -1,4 +1,28 @@
-.hi {
-    background-color: red;
-    color: white;
+.container {
+    margin: 200px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    position: absolute;
+    top: 10px;
+    left: 450px;
+}
+
+.main-cart {
+    position: relative;
+    background-color: rgb(196, 196, 196);
+    border-radius: 10px;
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    width: 200px;
+    height: 30px;
 }
